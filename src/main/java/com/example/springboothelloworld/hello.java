@@ -19,5 +19,8 @@ public class hello {
         return "hello";
     }
 
-
+    @GetMapping("/h")
+    private String spring(){
+        return "ghh";
+    }
 }
