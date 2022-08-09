@@ -1,18 +1,20 @@
 package com.example.springboothelloworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/hello")
 public class hello {
 
-    @GetMapping("/hello")
+    @GetMapping
     private String springBootHello() {
         return "hello world.....";
     }
 
 
-    @GetMapping("/helloworld.")
+    @GetMapping("/world.")
     private String springBootHelloWorld(){
         return "hello";
     }
