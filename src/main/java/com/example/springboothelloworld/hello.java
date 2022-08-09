@@ -12,7 +12,7 @@ public class hello {
     }
 
 
-    @GetMapping("/helloworld")
+    @GetMapping("/helloworld.")
     private String springBootHelloWorld(){
         return "hello";
     }
