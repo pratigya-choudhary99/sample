@@ -14,7 +14,7 @@ public class hello {
     }
 
 
-    @GetMapping("/world.")
+    @GetMapping("/world")
     private String springBootHelloWorld(){
         return "hello";
     }
