@@ -9,5 +9,10 @@ public class hello {
     @GetMapping("/hello")
     private String springBootHello(){
         return "hello world.....";
+    }@GetMapping("/helloworld")
+    private String springBootHelloWorld(){
+        return "hello";
     }
+
+
 }
