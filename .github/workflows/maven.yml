@@ -21,7 +21,7 @@ jobs:
       with:
          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
          heroku_email: ${{secrets.HEROKU_EMAIL}}
-         heroku_app_name: ${{secrets.HEROKU_APP}}
+         heroku_app: ${{secrets.HEROKU_APP}}
          
     - name: Deploy to Heroku 2
       uses: AkhileshNS/heroku-deploy@v3.12.12
