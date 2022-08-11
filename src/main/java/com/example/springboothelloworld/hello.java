@@ -21,6 +21,6 @@ public class hello {
 
     @GetMapping("/h")
     private String spring(){
-        return "ghh";
+        return "gh";
     }
 }
